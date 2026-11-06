@@ -12,7 +12,9 @@ const Gallery = () => {
       const response = await fetch(url);
       const data = await response.json();
 
-      setImages((prevImages) => [...prevImages, ...data]);
+      const filteredImages = data.filter((img) => /\.jpe?g$/i.test(img.url));
+
+      setImages((prevImages) => [...prevImages, ...filteredImages]);
     } catch (error) {
       console.log(error);
     }
@@ -35,6 +37,7 @@ const Gallery = () => {
               onClick={() => {
                 setSelectedImg(image);
               }}
+              loading="lazy"
             />
           </figure>
         ))}
