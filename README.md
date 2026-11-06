@@ -16,15 +16,15 @@ PawSnap is a clean, responsive image gallery web application that showcases rand
 ## Layout & Previews
 
 ### Desktop View
-![Desktop View](Desktop.png)
+![Desktop View](./public/Desktop.png)
 
 ### Banner & Layout
-![Banner View](Bannar.png)
+![Banner View](./public/Bannar.png)
 
 ### Mobile Layout & Modal Preview
 | Mobile View | Image Preview Modal |
 | :---: | :---: |
-| ![Mobile View](Mobile.png) | ![Preview Modal](Preview.png) |
+| ![Mobile View](./public/Mobile.png) | ![Preview Modal](./public/Preview.png) |
 
 ---
 
